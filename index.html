@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>闫婷彧 · 文化桥梁型游戏设计作品集</title>
+    <meta
+      name="description"
+      content="闫婷彧——连接文化、玩家与团队的多任务桥梁。GDC 参展木偶潜行、功德七巧板、AAA Producer 流程项目。"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="default">
+    <header class="hero" data-theme="default">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="tagline">我是一座跨文化、多任务的游戏桥梁</p>
+          <p class="subtitle hero-description">
+            闫婷彧 · 设计师 / 制作人。以线为媒，将真实交互、情感配对与 AAA 流程贯穿，帮助团队和玩家穿梭于叙事、机制与文化之间。
+          </p>
+          <div class="hero-meta">
+            <span>GDC 展出 · 体感叙事</span>
+            <span>功德系统 · 情绪机制</span>
+            <span>Producer 流程编排</span>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar-frame">
+            <div class="avatar-gradient"></div>
+            <img src="picture/photo/1.png" alt="闫婷彧头像" loading="lazy" />
+          </div>
+          <p class="avatar-caption">闫婷彧 · Culture Bridge Designer</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="intro" class="bridge-map thread-lab" data-theme="default">
+        <canvas id="threadCanvas" aria-hidden="true"></canvas>
+        <div class="thread-content">
+          <div class="thread-title">
+            <span>线与结界 · Thread Loom</span>
+            <h2>我把玩家、宠物与团队编织在一起</h2>
+          </div>
+          <div class="thread-columns">
+            <div class="thread-card">
+              <h3>01 Ritual Threads</h3>
+              <p>实体十字架与木偶线把神秘仪式拉进现实，玩家动作与角色骨骼同步呼吸。</p>
+            </div>
+            <div class="thread-card">
+              <h3>02 Heart Matching</h3>
+              <p>功德七巧板像命运织机，猫与人互补缺口，演化成多结局的情感路径。</p>
+            </div>
+            <div class="thread-card">
+              <h3>03 Producer Weave</h3>
+              <p>在 ETC 组织 AAA 管线，让程设、美术、叙事和 Stakeholder 在同一张网里共振。</p>
+            </div>
+          </div>
+          <div class="thread-description">
+            每条线都连接具体的人：展会观众、移动端玩家、团队成员以及评审。线的交汇处，就是我身为“文化桥梁”的坐标。
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>代表项目 · Portfolio Lines</h2>
+        <div class="projects-grid">
+          <article class="project-card theme-cult" data-theme="cult">
+            <div class="project-header">
+              <h3>Inside the Cult · 木偶卧底（GDC 展出）</h3>
+              <div class="project-meta">
+                <span>沉浸式体感潜行</span>
+                <span>十字手柄原型</span>
+                <span>2025 · Unreal</span>
+              </div>
+            </div>
+            <div class="chips">
+              <span>交互叙事</span>
+              <span>体感控制</span>
+              <span>展会 Demo</span>
+            </div>
+            <div class="project-body">
+              <p>
+                玩家握住十字架手柄并拉动线绳，像操控木偶那样模仿邪教徒动作，以隐匿身份深入教团。物理反馈让“潜伏”紧张感被具象化。
+              </p>
+              <div class="media-grid">
+                <div class="media-block video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/OvodrE1ijS8?si=X1uQbd5Ir5W0AcmZ"
+                    title="Inside the Cult · GDC 试玩视频"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                    loading="lazy"
+                  ></iframe>
+                </div>
+                <div
+                  class="media-gallery"
+                  data-project="cult"
+                  data-default-ratio="2646 / 1339"
+                  tabindex="0"
+                  aria-label="Inside the Cult 作品卷轴"
+                >
+                  <div class="gallery-viewport">
+                    <div class="gallery-track">
+                      <div class="gallery-item">
+                        <img
+                          src="picture/p1/Frame 1.jpg"
+                          alt="Inside the Cult 展会主视觉"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="gallery-item">
+                        <img
+                          src="picture/p1/Frame 2.jpg"
+                          alt="Inside the Cult 十字手柄实体原型"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="gallery-item">
+                        <img
+                          src="picture/p1/Frame 3.jpg"
+                          alt="Inside the Cult 玩家动作示意"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="gallery-item">
+                        <img
+                          src="picture/p1/Frame 4.jpg"
+                          alt="Inside the Cult 潜行反馈 UI"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="gallery-item">
+                        <img
+                          src="picture/p1/Frame 5.jpg"
+                          alt="Inside the Cult 展会流程与布置"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="gallery-item">
+                        <img
+                          src="picture/p1/Frame 6.jpg"
+                          alt="Inside the Cult 玩家体验实拍"
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-controls">
+                    <button class="gallery-btn prev" type="button" aria-label="上一张">
+                      ←
+                    </button>
+                    <span class="gallery-indicator">01 / 06</span>
+                    <button class="gallery-btn next" type="button" aria-label="下一张">
+                      →
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="details">
+                <div><strong>角色：</strong>交互设计 + 体验脚本 + 现场展示统筹</div>
+                <div>
+                  <strong>亮点：</strong>玩家动作与角色骨骼绑定；潜行失败的即时视觉反馈；现场三分钟体验节奏。
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card theme-cats" data-theme="cats">
+            <div class="project-header">
+              <h3>Cat Distribution System · 功德七巧板</h3>
+              <div class="project-meta">
+                <span>轻度策略</span>
+                <span>功德值多结局</span>
+                <span>移动平台</span>
+              </div>
+            </div>
+            <div class="chips">
+              <span>系统设计</span>
+              <span>生成式谜题</span>
+              <span>情感体验</span>
+            </div>
+            <div class="project-body">
+              <p>
+                每位求签的人都携带两个“心灵缺口”，玩家需在猫猫图谱中寻找互补形状。一旦匹配成功，功德值上升并驱动不同的命运分支。
+              </p>
+              <div class="media-grid">
+                <div class="media-block video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/88ZHQ1r4l-c?si=9h6swALT0_JLrfkv"
+                    title="Cat Distribution System · 功德七巧板演示"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                    loading="lazy"
+                  ></iframe>
+                </div>
+                <div
+                  class="media-gallery"
+                  data-project="cats"
+                  data-default-ratio="2646 / 1209"
+                  tabindex="0"
+                  aria-label="Cat Distribution System 作品卷轴"
+                >
+                  <div class="gallery-viewport">
+                    <div class="gallery-track">
+                      <div class="gallery-item">
+                        <img
+                          src="picture/p2/7.jpg"
+                          alt="功德七巧板 · 世界观与功德塔版面"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="gallery-item">
+                        <img
+                          src="picture/p2/8.jpg"
+                          alt="功德七巧板 · 人类角色心灵缺口界面"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="gallery-item" data-ratio="2646 / 1616">
+                        <img
+                          src="picture/p2/9.jpg"
+                          alt="功德七巧板 · 猫猫匹配与功德仪式长图"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="gallery-item">
+                        <img
+                          src="picture/p2/10.jpg"
+                          alt="功德七巧板 · 功德值曲线与多结局界面"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="gallery-item">
+                        <img
+                          src="picture/p2/11.jpg"
+                          alt="功德七巧板 · 玩家反馈与功德仪表盘"
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-controls">
+                    <button class="gallery-btn prev" type="button" aria-label="上一张">
+                      ←
+                    </button>
+                    <span class="gallery-indicator">01 / 05</span>
+                    <button class="gallery-btn next" type="button" aria-label="下一张">
+                      →
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="details">
+                <div>
+                  <strong>贡献：</strong>七巧板配对算法、功德分级剧情、UI 情感色阶。
+                </div>
+                <div>
+                  <strong>桥梁价值：</strong>让“功德”这一文化隐喻以可视化方式与现代玩家沟通。
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card theme-pipeline" data-theme="pipeline">
+            <div class="project-header">
+              <h3>AAA Pipeline Lab · CMU ETC Producer</h3>
+              <div class="project-meta">
+                <span>流程架构</span>
+                <span>跨学科沟通</span>
+                <span>2024 · 学术项目</span>
+              </div>
+            </div>
+            <div class="chips">
+              <span>组长/Producer</span>
+              <span>甘特 + Jira</span>
+              <span>测试回环</span>
+            </div>
+            <div class="project-body">
+              <p>
+                在 ETC Studio，带领一支“AAA 规格”团队完成需求冻结、冲刺节奏、测试回环与 Stakeholder Demo，建立标准化模板供后来小组沿用。
+              </p>
+              <div class="media-grid">
+                <div class="media-block video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/CYqeOCAmNFY?si=RXIyo5Pa5YTBUzK2"
+                    title="AAA Pipeline Lab · Producer 流程讲解"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                    loading="lazy"
+                  ></iframe>
+                </div>
+                <div
+                  class="media-gallery"
+                  data-project="pipeline"
+                  data-default-ratio="2646 / 1339"
+                  tabindex="0"
+                  aria-label="AAA Pipeline Lab 作品卷轴"
+                >
+                  <div class="gallery-viewport">
+                    <div class="gallery-track">
+                      <div class="gallery-item">
+                        <img src="picture/p3/12.jpg" alt="Pipeline Lab · 管线拓扑图" loading="lazy" />
+                      </div>
+                      <div class="gallery-item">
+                        <img src="picture/p3/13.jpg" alt="Pipeline Lab · 冲刺节奏与甘特图" loading="lazy" />
+                      </div>
+                      <div class="gallery-item">
+                        <img src="picture/p3/14.jpg" alt="Pipeline Lab · 信息同步看板" loading="lazy" />
+                      </div>
+                      <div class="gallery-item">
+                        <img src="picture/p3/15.jpg" alt="Pipeline Lab · 跨部门会议记录" loading="lazy" />
+                      </div>
+                      <div class="gallery-item">
+                        <img src="picture/p3/16.jpg" alt="Pipeline Lab · 测试回环与反馈" loading="lazy" />
+                      </div>
+                      <div class="gallery-item">
+                        <img src="picture/p3/17.jpg" alt="Pipeline Lab · Stakeholder Demo" loading="lazy" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-controls">
+                    <button class="gallery-btn prev" type="button" aria-label="上一张">
+                      ←
+                    </button>
+                    <span class="gallery-indicator">01 / 06</span>
+                    <button class="gallery-btn next" type="button" aria-label="下一张">
+                      →
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="details">
+                <div><strong>职责：</strong>冲刺规划、跨角色对齐、里程碑演示叙事。</div>
+                <div>
+                  <strong>成果：</strong>人月成本可视化、风险雷达图、反馈闭环模板。
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" data-theme="default">
+        <h2>联系我 · Build New Bridges</h2>
+        <p>
+          希望在 USC 游戏设计硕士中继续担任“文化与流程的桥梁”。欢迎通过以下方式交流合作、导师建议或项目共创。
+        </p>
+        <div class="details">
+          <div><strong>邮箱：</strong><a href="mailto:hello@yantingyu.com">hello@yantingyu.com</a></div>
+          <div><strong>LinkedIn：</strong><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">/in/yantingyu</a></div>
+          <div><strong>备用视频链接：</strong>请在上方占位区域嵌入 YouTube iframe。</div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      © <span id="year"></span> 闫婷彧 · Game Bridge Designer. Designed for USC Application.
+    </footer>
+    <script>
+      const yearEl = document.getElementById("year");
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+
+      const applyTheme = (theme) => {
+        if (document.body.dataset.theme === theme) return;
+        document.body.dataset.theme = theme;
+      };
+
+      applyTheme(document.body.dataset.theme || "default");
+
+      const themeTargets = document.querySelectorAll("[data-theme]");
+      if (themeTargets.length) {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                applyTheme(entry.target.dataset.theme || "default");
+              }
+            });
+          },
+          { threshold: 0.4 }
+        );
+        themeTargets.forEach((target) => observer.observe(target));
+      }
+
+      const threadCanvas = document.getElementById("threadCanvas");
+      if (threadCanvas) {
+        const ctx = threadCanvas.getContext("2d");
+        const threads = [];
+        const threadCount = 18;
+
+        const resizeCanvas = () => {
+          threadCanvas.width = threadCanvas.offsetWidth * window.devicePixelRatio;
+          threadCanvas.height = threadCanvas.offsetHeight * window.devicePixelRatio;
+        };
+
+        const initThreads = () => {
+          threads.length = 0;
+          for (let i = 0; i < threadCount; i++) {
+            threads.push({
+              x: Math.random() * threadCanvas.width,
+              y: Math.random() * threadCanvas.height,
+              angle: Math.random() * Math.PI * 2,
+              speed: 0.3 + Math.random() * 0.4,
+              offset: Math.random() * 1000,
+              length: 80 + Math.random() * 140,
+              color: Math.random() > 0.5 ? "rgba(141, 215, 255, 0.5)" : "rgba(255, 196, 128, 0.45)",
+            });
+          }
+        };
+
+        const drawThreads = () => {
+          if (!ctx) return;
+          ctx.clearRect(0, 0, threadCanvas.width, threadCanvas.height);
+          threads.forEach((thread, index) => {
+            const sway = Math.sin(performance.now() / 1000 + thread.offset) * 40;
+            const x1 = thread.x + sway;
+            const y1 = thread.y + Math.cos((performance.now() / 1500 + index) / 2) * 30;
+            const x2 = x1 + Math.cos(thread.angle) * thread.length;
+            const y2 = y1 + Math.sin(thread.angle) * thread.length;
+
+            ctx.strokeStyle = thread.color;
+            ctx.lineWidth = 1.2;
+            ctx.beginPath();
+            ctx.moveTo(x1, y1);
+            ctx.lineTo(x2, y2);
+            ctx.stroke();
+          });
+          requestAnimationFrame(drawThreads);
+        };
+
+        resizeCanvas();
+        initThreads();
+        drawThreads();
+        window.addEventListener("resize", () => {
+          resizeCanvas();
+          initThreads();
+        });
+      }
+
+      document.querySelectorAll(".media-gallery").forEach((gallery) => {
+        const track = gallery.querySelector(".gallery-track");
+        const slides = gallery.querySelectorAll(".gallery-item");
+        const prev = gallery.querySelector(".gallery-btn.prev");
+        const next = gallery.querySelector(".gallery-btn.next");
+        const indicator = gallery.querySelector(".gallery-indicator");
+        const defaultRatio = gallery.dataset.defaultRatio || "2646 / 1339";
+        gallery.style.setProperty("--gallery-ratio", defaultRatio);
+        let index = 0;
+
+        const update = () => {
+          if (!track) return;
+          track.style.transform = `translateX(-${index * 100}%)`;
+          if (indicator) {
+            indicator.textContent = `${String(index + 1).padStart(2, "0")} / ${String(
+              slides.length
+            ).padStart(2, "0")}`;
+          }
+
+          const ratio = slides[index]?.dataset.ratio;
+          if (ratio) {
+            gallery.style.setProperty("--gallery-ratio", ratio);
+            gallery.classList.add("is-stretched");
+          } else {
+            gallery.style.setProperty("--gallery-ratio", defaultRatio);
+            gallery.classList.remove("is-stretched");
+          }
+        };
+
+        prev?.addEventListener("click", () => {
+          index = (index - 1 + slides.length) % slides.length;
+          update();
+        });
+
+        next?.addEventListener("click", () => {
+          index = (index + 1) % slides.length;
+          update();
+        });
+
+        gallery.addEventListener("keydown", (event) => {
+          if (event.key === "ArrowLeft") {
+            event.preventDefault();
+            prev?.click();
+          } else if (event.key === "ArrowRight") {
+            event.preventDefault();
+            next?.click();
+          }
+        });
+
+        update();
+      });
+    </script>
+  </body>
+</html>
+
+
